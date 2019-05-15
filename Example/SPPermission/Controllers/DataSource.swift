@@ -22,12 +22,8 @@
 import UIKit
 
 extension Controller: SPPermissionDialogDataSource {
-	
-	var uiDynamics: CGFloat {
-		return 1.2
-	}
     
-    var dragEnabled: Bool {
+	var dragEnabled: Bool {
         return true
     }
     
